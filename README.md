@@ -54,7 +54,10 @@ cat secrets/.env
 
 ## Usage
 ```shell
-python transcribe_zh_en_p1.py --input-dir  /mnt/c/Users/Hamid/Desktop/（翻译后）焊接方法及设备使用课程视频-S --output-dir /mnt/c/Users/Hamid/Desktop/（翻译后）焊接方法及设备使用课程视频-SRT  --detach-subtitles --detach-audio --device gpu  --speech-to-text en --filter-two-stems --secrets-dir /home/hamid/secrets
+python transcribe_zh_en_p1.py --input-dir  /mnt/c/Users/Hamid/Desktop/（翻译后）焊接方法及设备使用课程视频-S \
+--output-dir /mnt/c/Users/Hamid/Desktop/（翻译后）焊接方法及设备使用课程视频-SRT  \
+--detach-subtitles --detach-audio --device gpu  --speech-to-text en --filter-two-stems \
+--secrets-dir /home/hamid/secrets
 ```
 
 ### Command-Line Arguments

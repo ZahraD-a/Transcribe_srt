@@ -71,9 +71,9 @@ Defaults to parent directory of --input-dir if not provided.
 ### input-dir file structure
 - inorder to ensure that transcribe_zh_en_p1.py runs smoothly we need to ensure that -input-dir contains subdirectories. and each subdirectory contains a video.
 
-![alt text](image.png)
+![alt text](incorrect_input_dir.png)
 
-![alt text](image-1.png)
+![alt text](correct_input_dir.png)
 
 - If you are struggling with creating these directories manually. do not worry we've got you covered. please install:
 ```shell

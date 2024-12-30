@@ -80,16 +80,16 @@ pip install create_directory_for_each_video_inside_input_dir.py
 ```
 
 ## Logging
-By default, the script logs important events and errors:
-INFO: Start and end of processing, intermediate steps.
-WARNING/ERROR: Subprocess or API errors, missing credentials, incompatible file types, etc.
+- By default, the script logs important events and errors:
+- INFO: Start and end of processing, intermediate steps.
+- WARNING/ERROR: Subprocess or API errors, missing credentials, incompatible file types, etc.
 To customize logging behavior (e.g., to enable DEBUG level), edit the logging.basicConfig(...) in the Python script.
 
 ## Roadmap
- Support additional speech-to-text providers (AWS, Google Cloud).
- Improve multi-language STT support.
- Integrate advanced noise reduction techniques.
- Create a Docker image for easier deployment.
+- Support additional speech-to-text providers (AWS, Google Cloud).
+- Improve multi-language STT support.
+- Integrate advanced noise reduction techniques.
+- Create a Docker image for easier deployment.
 
 
 ## Contributing

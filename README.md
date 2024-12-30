@@ -30,12 +30,12 @@ Installation instructions: FFmpeg Downloads https://ffmpeg.org/download.html
 
 ## Installation
 1. Clone the Repository:
-```console
+```shell
 git clone https://github.com/<your-username>/Transcribe_srt.git
 cd Transcribe_srt
 ```
 2. Install Python Dependencies:
-```console
+```shell
 pip install -r requirements.txt
 ```
 (Adjust command if using pip3 or a virtual environment.)
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 3. Setup API Credentials:
 - Place your API credentials (e.g., Azure secrets) into a .env file under the directory specified by --secrets-dir.
 - Example .env contents
-```console
+```shell
 cat secrets/.env
 >>>AZURE_OPENAI_API_KEY=
 >>>AZURE_OPENAI_ENDPOINT=
@@ -53,7 +53,7 @@ cat secrets/.env
 
 
 ## Usage
-```console
+```shell
 python transcribe_zh_en_p1.py --input-dir  /mnt/c/Users/Hamid/Desktop/（翻译后）焊接方法及设备使用课程视频-S --output-dir /mnt/c/Users/Hamid/Desktop/（翻译后）焊接方法及设备使用课程视频-SRT  --detach-subtitles --detach-audio --device gpu  --speech-to-text en --filter-two-stems --secrets-dir /home/hamid/secrets
 ```
 

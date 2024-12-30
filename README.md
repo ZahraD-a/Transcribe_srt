@@ -103,7 +103,7 @@ To customize logging behavior (e.g., to enable DEBUG level), edit the logging.ba
 - Create a Docker image for easier deployment.
 
 
-## Contributing
+## Contributions
 Contributions, issues, and feature requests are welcome!
 Feel free to open an issue or submit a pull request.
 

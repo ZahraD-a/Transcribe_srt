@@ -82,7 +82,7 @@ python transcribe_zh_en_p1.py --input-dir  /mnt/c/Users/Hamid/Desktop/（翻译�
 python fix_input_dir/create_input_dir_for_each_video.py
 >>>usage: create_input_dir_for_each_video.py [-h] --input-dir INPUT_DIR --output-dir OUTPUT_DIR
 create_input_dir_for_each_video.py: error: the following arguments are required: --input-dir, --output-dir
-```
+```![alt text](image.png)
 
 ```shell
 python create_input_dir_for_each_video.py \

@@ -76,7 +76,15 @@ python transcribe_zh_en_p1.py --input-dir  /mnt/c/Users/Hamid/Desktop/（翻译�
 
 - If you are struggling with creating these directories manually. do not worry we've got you covered. please install:
 ```shell
-pip install create_directory_for_each_video_inside_input_dir.py
+python fix_input_dir/create_input_dir_for_each_video.py
+>>>usage: create_input_dir_for_each_video.py [-h] --input-dir INPUT_DIR --output-dir OUTPUT_DIR
+create_input_dir_for_each_video.py: error: the following arguments are required: --input-dir, --output-dir
+```
+
+```shell
+python create_input_dir_for_each_video.py \
+  --input-dir "/mnt/c/Users/Hamid/Desktop/机械制造技术/（翻译后）机械制造技术" \
+  --output-dir "/mnt/c/Users/Hamid/Desktop/（翻译后）机械制造技术_SRT"
 ```
 
 ## Logging

@@ -58,14 +58,14 @@ python transcribe_zh_en_p1.py --input-dir  /mnt/c/Users/Hamid/Desktop/（翻译�
 ```
 
 ### Command-Line Arguments
-- --input-dir: (Required) Path to the directory containing original videos.
-- --output-dir: Path to the directory where processed videos and files will be saved. Defaults to parent directory of --input-dir if not provided.
-- --detach-subtitles: Flag to extract existing subtitles from videos (if present).
-- --detach-audio: Flag to extract audio tracks from videos as .wav.
-- --speech-to-text <LANG_CODE>: Perform speech-to-text on extracted audio in the specified language (e.g., en, es, fr).
-- --filter-two-stems: Attempt to separate audio into vocals and accompaniment (for improved STT quality).
-- --secrets-dir: (Required) Directory containing .env file with API credentials.
-- --device <cpu|gpu>: Specify device for audio processing, this is used only in the filteration process of demucs utility. Defaults to cpu.
+- `--input-dir`: (Required) Path to the directory containing original videos.
+- `--output-dir`: Path to the directory where processed videos and files will be saved. Defaults to parent directory of --input-dir if not provided.
+- `--detach-subtitles`: Flag to extract existing subtitles from videos (if present).
+- `--detach-audio`: Flag to extract audio tracks from videos as .wav.
+- `--speech-to-text <LANG_CODE>`: Perform speech-to-text on extracted audio in the specified language (e.g., en, es, fr).
+- `--filter-two-stems`: Attempt to separate audio into vocals and accompaniment (for improved STT quality).
+- `--secrets-dir`: (Required) Directory containing .env file with API credentials.
+- `--device <cpu|gpu>`: Specify device for audio processing, this is used only in the filteration process of demucs utility. Defaults to cpu.
 
 ### input-dir file structure
 - inorder to ensure that transcribe_zh_en_p1.py runs smoothly we need to ensure that -input-dir contains subdirectories. and each subdirectory contains a video.

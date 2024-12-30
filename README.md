@@ -23,7 +23,7 @@ Transcribe_srt is a Python-based utility for generating .srt subtitle files from
 ## Prerequisites
 1. Python >= 3.8: Make sure Python is installed and accessible.
 2. ffmpeg: The script relies on ffmpeg for video and audio processing.
-Installation instructions: FFmpeg Downloads https://ffmpeg.org/download.html
+Installation instructions: [FFmpeg Downloads](https://ffmpeg.org/download.html).
 3. pip: For installing Python dependencies.
 4. Azure Account: If you plan to use the speech-to-text functionality, ensure you have valid API credentials.
 
@@ -49,7 +49,7 @@ cat secrets/.env
 >>>AZURE_OPENAI_ENDPOINT=
 >>>AZURE_OPENAI_DEPLOYMENT=
 ```
-- For more details, refer to Configuration. https://chatgpt.com/c/676fb84c-00c4-8000-9f5c-c754d48d5674#configuration
+- For more details, refer to [Configuration](https://chatgpt.com/c/676fb84c-00c4-8000-9f5c-c754d48d5674#configuration).
 
 
 ## Usage
@@ -69,9 +69,16 @@ Defaults to parent directory of --input-dir if not provided.
 --device <cpu|gpu>: Specify device for audio processing, this is used only in the filteration process of demucs utility. Defaults to cpu.
 
 ### input-dir file structure
-##TODO
+- inorder to ensure that transcribe_zh_en_p1.py runs smoothly we need to ensure that -input-dir contains subdirectories. and each subdirectory contains a video.
 
+![alt text](image.png)
 
+![alt text](image-1.png)
+
+- If you are struggling with creating these directories manually. do not worry we've got you covered. please install:
+```shell
+pip install create_directory_for_each_video_inside_input_dir.py
+```
 
 ## Logging
 By default, the script logs important events and errors:
